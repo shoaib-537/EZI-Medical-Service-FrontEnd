@@ -1,0 +1,45 @@
+.container {
+    background-color: #292929;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 25px 35px;
+}
+
+.common {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 55px;
+    color: white;
+}
+
+.locationicon {
+    padding-left: 15px;
+}
+
+.address {
+    padding-left: 15px;
+}
+
+.btn-1 {
+    height: 50px;
+    width: 180px;
+    border-radius: 0px;
+    color: #292929;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btn-1:hover {
+    color: white;
+    background: #38f9a5;
+    transition: 0.4s;
+}
