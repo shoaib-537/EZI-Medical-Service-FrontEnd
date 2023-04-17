@@ -1,5 +1,6 @@
 import React from "react";
 import "./HeroSection.css";
+import nurse from '../media/nurse.png'
 import CircleIcon from "@mui/icons-material/Circle";
 const HeroSection = () => {
   return (
@@ -27,7 +28,11 @@ const HeroSection = () => {
               <button className="hero-btn1">READ MORE</button>
             </div>
           </div>
-          <div className="heroImg"></div>
+          <div className="heroImg">
+            <div className="heroImage">
+              <img src={nurse} alt="" />
+            </div>
+          </div>
         </div>
       </div>
     </div>

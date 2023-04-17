@@ -1,19 +1,19 @@
 .hero-container {
     background-color: #f2f3f4;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
 }
 
 .hero-main {
     padding-top: 155px;
-    /* padding-left: 30px; */
-    width: 1280;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    /* max-width: 1200px; */
 }
 
-.hero-Text {
-    width: 50%;
-}
+
 
 .hero-topHeading {
     display: flex;
@@ -57,4 +57,9 @@
     border-radius: 0px;
     border: none;
     cursor: pointer;
+}
+
+.heroImage>img {
+    width: 700px;
+    height: auto;
 }
